@@ -1,0 +1,35 @@
+body {
+  background-color: rgba(195, 224, 245, 0.746);
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 325px;
+}
+
+.sqr {
+  width: 30%;
+  aspect-ratio: 1/1;
+  border: 3px solid black;
+  font-size: 64px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2px;
+}
+.sqr:hover{
+    background-color: #56cff7b6;
+}
+
+#reset-btn{
+    margin-top: 20px;
+    font-size: large;
+    border-radius: 15px;
+    height: 60px;
+}
